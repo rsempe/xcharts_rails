@@ -534,9 +534,7 @@ var emptyData = [[]],
     interpolation: 'monotone',
 
     // Data sorting
-    sortX: function (a, b) {
-      return (!a.x && !b.x) ? 0 : (a.x < b.x) ? -1 : 1;
-    }
+    sortX: function (a, b) {}
   };
 
 // What/how should the warning/error be presented?
